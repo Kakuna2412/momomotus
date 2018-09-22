@@ -206,7 +206,7 @@ var deckbuildState = {
 	
 	startGame: function () {
 		if (arguments[2] && (deck1nb == decknbmax))
-			game.state.start('game');
+			//game.state.start('game');
 	}
 
 };

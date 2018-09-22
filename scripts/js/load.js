@@ -6,7 +6,7 @@ var loadState = {
 		game.scale.pageAlignHorizontally = true;
 		game.scale.pageAlignVertically = true;
 		
-		var loadingLabel = game.add.text(100,200,'Loading the Stach...',{font: '30px Courier', fill:'#ffffff'});
+		var loadingLabel = game.add.text(100,200,'Loading the Momo...',{font: '30px Courier', fill:'#ffffff'});
 		
 		game.load.script('particlestorm', 'scripts/particle-storm.min.js');
 
@@ -49,7 +49,7 @@ var loadState = {
 	},
 	
 	create: function () {
-		game.state.start('menu');
+		game.state.start('motus');
 	}
 
 };
