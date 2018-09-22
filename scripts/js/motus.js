@@ -19,7 +19,7 @@ var motusState = {
 		game.add.image(0, 0, 'sky');
 		
 		//Button Fight
-		game.add.button(game.world.width-193-8, 8, 'button', this.startGame, this, 2, 1, 0);
+		game.add.button(game.world.width-193-8, 8, 'button', this.giveup, this, 2, 1, 0);
 		
 		//Button Fullscreen
 		var button = game.add.button(game.world.width-32-8, game.world.height-32-8, 'buttonfull', gofull, this, 1, 0);
@@ -29,5 +29,10 @@ var motusState = {
 	update: function () {
 
 	}
+	
+	giveup: function () {
+
+	}
+
 
 };
