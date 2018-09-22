@@ -11,7 +11,7 @@ var deck1img;
 var deck2;
 var myCollectionRemain;
 
-var deckbuildState = {
+var motusState = {
 	
 	create: function () {
 		
