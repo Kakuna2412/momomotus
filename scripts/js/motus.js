@@ -1,3 +1,4 @@
+var version;
 var cptword;
 var cptlett;
 var words;
@@ -7,6 +8,9 @@ var solution;
 var motusState = {
 	
 	create: function () {
+		
+		version = game.add.text(1000, 620, '', {font: "10px Arial", fill: "#ffffff"});
+		version.text = "v0.01";
 		
 		//Disp Background
 		game.add.image(0, 0, 'sky');
