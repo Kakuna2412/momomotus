@@ -11,6 +11,9 @@ var motusState = {
 		//Disp Background
 		game.add.image(0, 0, 'sky');
 		
+		//Disp Grid
+		game.add.image(239, 132, 'grid');
+		
 		//Button Give up
 		game.add.button(game.world.width-193-8, 8, 'button', this.giveup, this, 2, 1, 0);
 		
@@ -23,7 +26,7 @@ var motusState = {
 		for (var i=0;i<6;i++){
 			wordsdisp[i] = new Array(8);
 			for (var j=0;j<8;j++){
-				(wordsdisp[i])[j] = game.add.text(220+30*j, 600+30*i, '', {font: "20px Arial", fill: "#ffffff"});
+				(wordsdisp[i])[j] = game.add.text(239+14+68*j, 132+11+63*i, '', {font: "40px Arial", fill: "#ffffff"});
 				(wordsdisp[i])[j].text = "/";
 			}
 		}

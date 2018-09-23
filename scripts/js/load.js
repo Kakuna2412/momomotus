@@ -15,6 +15,7 @@ var loadState = {
 		game.load.spritesheet('buttondown', 'assets/buttons/buttonDown.png', 32, 32, 2);
 			
 		game.load.image('sky', 'assets/motus/sky.jpg');
+		game.load.image('grid', 'assets/motus/grid_temp.png');
 	},
 	
 	create: function () {
