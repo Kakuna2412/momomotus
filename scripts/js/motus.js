@@ -28,7 +28,7 @@ var motusState = {
 	
 	update: function () {
 
-	}
+	},
 	
 	giveup: function () {
 
