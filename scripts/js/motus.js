@@ -6,10 +6,6 @@ var solution;
 
 var motusState = {
 	
-	init: function () {
-		words = 0;
-	},	
-	
 	create: function () {
 		
 		//Disp Background
@@ -21,9 +17,7 @@ var motusState = {
 		//Button Fullscreen
 		var button = game.add.button(game.world.width-32-8, game.world.height-32-8, 'buttonfull', gofull, this, 1, 0);
 		button.scale.setTo(0.5,0.5);
-		
-		init();
-		
+
 		//Disp Words
 		wordsdisp = new Array(6);
 		for (var i=0;i<6;i++){
